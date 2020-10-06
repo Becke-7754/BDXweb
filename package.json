@@ -1,0 +1,23 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss css/tailwind.css -o dist/css/style.css",
+    "watch": "postcss css/tailwind.css -o dist/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8.1.0",
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {
+    "postcss-functions": "^3.0.0"
+  }
+}

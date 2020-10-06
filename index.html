@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tailwind Navbar</title>
+  </head>
+  <body class="bg-gray-900 font-sans leading-normal tracking-normal">
+    <header class="header relative overflow-hidden">
+      <!-- Navbar Start -->
+      <nav
+        class="flex flex-wrap items-center justify-between bg-gray-800 w-full z-10 p-1 top-0 bg-opacity-50"
+      >
+        <div class="flex flex-row items-center flex-shrink-0 text-white">
+          <img
+            class="md:h-16 md:w-16 h-8 w-8 ml-6 lg:ml-20"
+            src="/dist/img/bdx.png"
+            alt=""
+          />
+          <a
+            class="md:text-3xl pl-2 font-medium text-xl hover:text-primary-BDX"
+            href="#"
+            >BDX</a
+          >
+        </div>
+        <!-- Menu toggle  button -->
+        <div class="block lg:hidden">
+          <button
+            id="nav-toggle"
+            class="p-1 h-6 border text-gray-500 rounded-full border-gray-500 hover:text-white hover:border-white"
+          >
+            <svg
+              class="fill-current h-2 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <!-- Menu items -->
+        <div
+          id="nav-content"
+          class="hidden w-full pt-6 md:flex lg:items-center lg:w-auto lg:block lg:pt-0"
+        >
+          <ul
+            class="uppercase text-white text-center text-sm lg:flex flex-1 md:text-xl md:pl-20"
+          >
+            <li>
+              <a class="inline-block py-2 px-4 hover:text-primary-BDX" href="#"
+                >Эхлэл</a
+              >
+            </li>
+            <li>
+              <a class="inline-block py-2 px-4 hover:text-primary-BDX" href="#"
+                >Бидний тухай</a
+              >
+            </li>
+            <li>
+              <a class="inline-block py-2 px-4 hover:text-primary-BDX" href="#"
+                >Үйлчилгээ</a
+              >
+            </li>
+            <li>
+              <a class="inline-block py-2 px-4 hover:text-primary-BDX" href="#"
+                >Холбоо барих</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+      <!-- Hero Start -->
+      <div class="hero absolute inset-0 sm:hidden">
+        <img
+          class="w-full h-full object-cover object-center"
+          src="/dist/img/BDX.JPG"
+          alt=""
+        />
+      </div>
+      <div class="hero absolute hidden inset-0 sm:block">
+        <video
+          src="/dist/video/BDX app.mp4"
+          class="w-full h-full object-cover"
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+      <!-- Hero end -->
+    </header>
+    <!-- Head end -->
+    <!-- Slider Start -->
+    <!-- Navigagion start -->
+    <div class="container my-6">
+      <ul
+        class="flex text-gray-300 justify-center md:justify-start md:ml-24 md:text-2xl"
+      >
+        <li class="pr-2">Шинэ бүтээлүүд</li>
+        <li class="pr-2">|</li>
+        <li class="text-primary-BDX pr-2">Бүтээлүүд</li>
+      </ul>
+    </div>
+    <!-- Navigagion end -->
+    <!-- Preview Button -->
+    <div class="container flex items-center mx-auto">
+      <button
+        id="prev-btn"
+        type="button"
+        class="h-16 w-16 text-gray-300 hidden md:block"
+      >
+        <svg
+          class="fill-current"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+        >
+          <path
+            d="M7.05 9.293L6.343 10 12 15.657l1.414-1.414L9.172 10l4.242-4.243L12 4.343z"
+          />
+        </svg>
+      </button>
+      <!-- Cards -->
+      <div class="container mx-auto mb-16">
+        <div
+          class="flex flex-col items-stretchjustify-start space-y-6 md:flex-row md:overflow-hidden md:flex-no-wrap md:space-y-0"
+        >
+          <div class="flex flex-shrink-0 justify-center">
+            <a href="#" class="relative group block">
+              <div
+                class="absolute inset-0 bg-black opacity-70 p-4 hidden group-hover:flex flex-col justify-end text-white cursor-pointer"
+              >
+                <h3 class="text-lg mb-2">Power bank</h3>
+                <p class="leading-normal select-none">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Accusantium exercitationem numquam expedita nesciunt similique
+                  architecto cumque ut veritatis esse fugit!
+                </p>
+              </div>
+              <img class="h-102" src="/dist/img/powerBank.jpg" alt="" />
+            </a>
+          </div>
+          <div class="flex flex-shrink-0 mx-2 justify-center">
+            <a href="#" class="relative group block">
+              <div
+                class="absolute inset-0 bg-black opacity-70 p-4 hidden group-hover:flex flex-col justify-end text-white cursor-pointer"
+              >
+                <h3 class="text-lg mb-2">Power bank</h3>
+                <p class="leading-normal select-none">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Accusantium exercitationem numquam expedita nesciunt similique
+                  architecto cumque ut veritatis esse fugit!
+                </p>
+              </div>
+              <img class="h-102" src="/dist/img/powerBank.jpg" alt="" />
+            </a>
+          </div>
+          <div class="flex flex-shrink-0 mx-2 justify-center">
+            <a href="#" class="relative group block">
+              <div
+                class="absolute inset-0 bg-black opacity-70 p-4 hidden group-hover:flex flex-col justify-end text-white cursor-pointer"
+              >
+                <h3 class="text-lg mb-2">Power bank</h3>
+                <p class="leading-normal select-none">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Accusantium exercitationem numquam expedita nesciunt similique
+                  architecto cumque ut veritatis esse fugit!
+                </p>
+              </div>
+              <img class="h-102" src="/dist/img/powerBank.jpg" alt="" />
+            </a>
+          </div>
+          <div class="flex flex-shrink-0 mx-2 justify-center>
+          <a href="#" class="relative group block">
+            <div
+              class="absolute inset-0 bg-black opacity-70 p-4 hidden group-hover:flex flex-col justify-end text-white cursor-pointer"
+            >
+              <h3 class="text-lg mb-2">Power bank</h3>
+              <p class="leading-normal select-none">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Accusantium exercitationem numquam expedita nesciunt similique
+                architecto cumque ut veritatis esse fugit!
+              </p>
+            </div>
+            <img class="h-102" src="/dist/img/powerBank.jpg" alt="" />
+          </a>
+        </div>
+        <div class="flex flex-shrink-0 mx-2 justify-center">
+          <a href="#" class="relative group block">
+            <div
+              class="absolute inset-0 bg-black opacity-70 p-4 hidden group-hover:flex flex-col justify-end text-white cursor-pointer"
+            >
+              <h3 class="text-lg mb-2">Power bank</h3>
+              <p class="leading-normal select-none">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Accusantium exercitationem numquam expedita nesciunt similique
+                architecto cumque ut veritatis esse fugit!
+              </p>
+            </div>
+            <img class="h-102" src="/dist/img/powerBank.jpg" alt="" />
+          </a>
+        </div>
+        <div class="flex flex-shrink-0 mx-2 justify-center">
+          <a href="#" class="relative group block">
+            <div
+              class="absolute inset-0 bg-black opacity-70 p-4 hidden group-hover:flex flex-col justify-end text-white cursor-pointer"
+            >
+              <h3 class="text-lg mb-2">Power bank</h3>
+              <p class="leading-normal select-none">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Accusantium exercitationem numquam expedita nesciunt similique
+                architecto cumque ut veritatis esse fugit!
+              </p>
+            </div>
+            <img class="h-102" src="/dist/img/powerBank.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Next Button -->
+      <button
+        id="next-btn"
+        type="button"
+        class="h-16 w-16 text-gray-300 hidden md:block"
+      >
+        <svg
+          class="fill-current"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+        >
+          <path
+            d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"
+          />
+        </svg>
+      </button>
+    </div>
+    <!-- Slider end -->
+    <script>
+      // Javascript to toggle menu
+
+      document.getElementById("nav-toggle").onclick = function () {
+        document.getElementById("nav-content").classList.toggle("hidden");
+      };
+    </script>
+  </body>
+</html>

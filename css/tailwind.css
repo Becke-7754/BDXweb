@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+.btn-primary-BDX {
+  @apply inline-block bg-primary-BDX px-3 py-1 m-auto text-xs rounded-md uppercase text-white shadow-lg tracking-wider font-semibold;
+}
+
+.btn-primary-BDX:hover {
+  @apply bg-orange-900;
+}
+.btn-primary-BDX:focus {
+  @apply shadow-outline;
+}
+.btn-primary-BDX:active {
+  @apply bg-orange-800;
+}
+.header {
+  height: 400px;
+}
+.hero {
+  z-index: -10;
+}
+
+@screen sm {
+  .btn-primary-BDX {
+    @apply text-lg;
+  }
+  .header {
+    height: 700px;
+  }
+}
+
+@tailwind utilities;
