@@ -36,6 +36,7 @@ module.exports = {
   variants: {
     backgroundColor: ["responsive", "hover", "focus", "active"],
     display: ["responsive", "group-hover"],
+    overscrollBehavior: ['responsive','hover','focus'],
   },
   plugins: [],
 };

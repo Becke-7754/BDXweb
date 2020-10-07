@@ -13364,6 +13364,84 @@ video {
   overscroll-behavior-x: none;
 }
 
+.hover\:overscroll-auto:hover {
+  -ms-scroll-chaining: chained;
+      overscroll-behavior: auto;
+}
+
+.hover\:overscroll-contain:hover {
+  -ms-scroll-chaining: none;
+      overscroll-behavior: contain;
+}
+
+.hover\:overscroll-none:hover {
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
+}
+
+.hover\:overscroll-y-auto:hover {
+  overscroll-behavior-y: auto;
+}
+
+.hover\:overscroll-y-contain:hover {
+  overscroll-behavior-y: contain;
+}
+
+.hover\:overscroll-y-none:hover {
+  overscroll-behavior-y: none;
+}
+
+.hover\:overscroll-x-auto:hover {
+  overscroll-behavior-x: auto;
+}
+
+.hover\:overscroll-x-contain:hover {
+  overscroll-behavior-x: contain;
+}
+
+.hover\:overscroll-x-none:hover {
+  overscroll-behavior-x: none;
+}
+
+.focus\:overscroll-auto:focus {
+  -ms-scroll-chaining: chained;
+      overscroll-behavior: auto;
+}
+
+.focus\:overscroll-contain:focus {
+  -ms-scroll-chaining: none;
+      overscroll-behavior: contain;
+}
+
+.focus\:overscroll-none:focus {
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
+}
+
+.focus\:overscroll-y-auto:focus {
+  overscroll-behavior-y: auto;
+}
+
+.focus\:overscroll-y-contain:focus {
+  overscroll-behavior-y: contain;
+}
+
+.focus\:overscroll-y-none:focus {
+  overscroll-behavior-y: none;
+}
+
+.focus\:overscroll-x-auto:focus {
+  overscroll-behavior-x: auto;
+}
+
+.focus\:overscroll-x-contain:focus {
+  overscroll-behavior-x: contain;
+}
+
+.focus\:overscroll-x-none:focus {
+  overscroll-behavior-x: none;
+}
+
 .p-0 {
   padding: 0;
 }
@@ -35799,6 +35877,84 @@ video {
     overscroll-behavior-x: none;
   }
 
+  .sm\:hover\:overscroll-auto:hover {
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
+  }
+
+  .sm\:hover\:overscroll-contain:hover {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
+  }
+
+  .sm\:hover\:overscroll-none:hover {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
+  }
+
+  .sm\:hover\:overscroll-y-auto:hover {
+    overscroll-behavior-y: auto;
+  }
+
+  .sm\:hover\:overscroll-y-contain:hover {
+    overscroll-behavior-y: contain;
+  }
+
+  .sm\:hover\:overscroll-y-none:hover {
+    overscroll-behavior-y: none;
+  }
+
+  .sm\:hover\:overscroll-x-auto:hover {
+    overscroll-behavior-x: auto;
+  }
+
+  .sm\:hover\:overscroll-x-contain:hover {
+    overscroll-behavior-x: contain;
+  }
+
+  .sm\:hover\:overscroll-x-none:hover {
+    overscroll-behavior-x: none;
+  }
+
+  .sm\:focus\:overscroll-auto:focus {
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
+  }
+
+  .sm\:focus\:overscroll-contain:focus {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
+  }
+
+  .sm\:focus\:overscroll-none:focus {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
+  }
+
+  .sm\:focus\:overscroll-y-auto:focus {
+    overscroll-behavior-y: auto;
+  }
+
+  .sm\:focus\:overscroll-y-contain:focus {
+    overscroll-behavior-y: contain;
+  }
+
+  .sm\:focus\:overscroll-y-none:focus {
+    overscroll-behavior-y: none;
+  }
+
+  .sm\:focus\:overscroll-x-auto:focus {
+    overscroll-behavior-x: auto;
+  }
+
+  .sm\:focus\:overscroll-x-contain:focus {
+    overscroll-behavior-x: contain;
+  }
+
+  .sm\:focus\:overscroll-x-none:focus {
+    overscroll-behavior-x: none;
+  }
+
   .sm\:p-0 {
     padding: 0;
   }
@@ -58166,6 +58322,84 @@ video {
   }
 
   .md\:overscroll-x-none {
+    overscroll-behavior-x: none;
+  }
+
+  .md\:hover\:overscroll-auto:hover {
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
+  }
+
+  .md\:hover\:overscroll-contain:hover {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
+  }
+
+  .md\:hover\:overscroll-none:hover {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
+  }
+
+  .md\:hover\:overscroll-y-auto:hover {
+    overscroll-behavior-y: auto;
+  }
+
+  .md\:hover\:overscroll-y-contain:hover {
+    overscroll-behavior-y: contain;
+  }
+
+  .md\:hover\:overscroll-y-none:hover {
+    overscroll-behavior-y: none;
+  }
+
+  .md\:hover\:overscroll-x-auto:hover {
+    overscroll-behavior-x: auto;
+  }
+
+  .md\:hover\:overscroll-x-contain:hover {
+    overscroll-behavior-x: contain;
+  }
+
+  .md\:hover\:overscroll-x-none:hover {
+    overscroll-behavior-x: none;
+  }
+
+  .md\:focus\:overscroll-auto:focus {
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
+  }
+
+  .md\:focus\:overscroll-contain:focus {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
+  }
+
+  .md\:focus\:overscroll-none:focus {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
+  }
+
+  .md\:focus\:overscroll-y-auto:focus {
+    overscroll-behavior-y: auto;
+  }
+
+  .md\:focus\:overscroll-y-contain:focus {
+    overscroll-behavior-y: contain;
+  }
+
+  .md\:focus\:overscroll-y-none:focus {
+    overscroll-behavior-y: none;
+  }
+
+  .md\:focus\:overscroll-x-auto:focus {
+    overscroll-behavior-x: auto;
+  }
+
+  .md\:focus\:overscroll-x-contain:focus {
+    overscroll-behavior-x: contain;
+  }
+
+  .md\:focus\:overscroll-x-none:focus {
     overscroll-behavior-x: none;
   }
 
@@ -80539,6 +80773,84 @@ video {
     overscroll-behavior-x: none;
   }
 
+  .lg\:hover\:overscroll-auto:hover {
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
+  }
+
+  .lg\:hover\:overscroll-contain:hover {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
+  }
+
+  .lg\:hover\:overscroll-none:hover {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
+  }
+
+  .lg\:hover\:overscroll-y-auto:hover {
+    overscroll-behavior-y: auto;
+  }
+
+  .lg\:hover\:overscroll-y-contain:hover {
+    overscroll-behavior-y: contain;
+  }
+
+  .lg\:hover\:overscroll-y-none:hover {
+    overscroll-behavior-y: none;
+  }
+
+  .lg\:hover\:overscroll-x-auto:hover {
+    overscroll-behavior-x: auto;
+  }
+
+  .lg\:hover\:overscroll-x-contain:hover {
+    overscroll-behavior-x: contain;
+  }
+
+  .lg\:hover\:overscroll-x-none:hover {
+    overscroll-behavior-x: none;
+  }
+
+  .lg\:focus\:overscroll-auto:focus {
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
+  }
+
+  .lg\:focus\:overscroll-contain:focus {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
+  }
+
+  .lg\:focus\:overscroll-none:focus {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
+  }
+
+  .lg\:focus\:overscroll-y-auto:focus {
+    overscroll-behavior-y: auto;
+  }
+
+  .lg\:focus\:overscroll-y-contain:focus {
+    overscroll-behavior-y: contain;
+  }
+
+  .lg\:focus\:overscroll-y-none:focus {
+    overscroll-behavior-y: none;
+  }
+
+  .lg\:focus\:overscroll-x-auto:focus {
+    overscroll-behavior-x: auto;
+  }
+
+  .lg\:focus\:overscroll-x-contain:focus {
+    overscroll-behavior-x: contain;
+  }
+
+  .lg\:focus\:overscroll-x-none:focus {
+    overscroll-behavior-x: none;
+  }
+
   .lg\:p-0 {
     padding: 0;
   }
@@ -102906,6 +103218,84 @@ video {
   }
 
   .xl\:overscroll-x-none {
+    overscroll-behavior-x: none;
+  }
+
+  .xl\:hover\:overscroll-auto:hover {
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
+  }
+
+  .xl\:hover\:overscroll-contain:hover {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
+  }
+
+  .xl\:hover\:overscroll-none:hover {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
+  }
+
+  .xl\:hover\:overscroll-y-auto:hover {
+    overscroll-behavior-y: auto;
+  }
+
+  .xl\:hover\:overscroll-y-contain:hover {
+    overscroll-behavior-y: contain;
+  }
+
+  .xl\:hover\:overscroll-y-none:hover {
+    overscroll-behavior-y: none;
+  }
+
+  .xl\:hover\:overscroll-x-auto:hover {
+    overscroll-behavior-x: auto;
+  }
+
+  .xl\:hover\:overscroll-x-contain:hover {
+    overscroll-behavior-x: contain;
+  }
+
+  .xl\:hover\:overscroll-x-none:hover {
+    overscroll-behavior-x: none;
+  }
+
+  .xl\:focus\:overscroll-auto:focus {
+    -ms-scroll-chaining: chained;
+        overscroll-behavior: auto;
+  }
+
+  .xl\:focus\:overscroll-contain:focus {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
+  }
+
+  .xl\:focus\:overscroll-none:focus {
+    -ms-scroll-chaining: none;
+        overscroll-behavior: none;
+  }
+
+  .xl\:focus\:overscroll-y-auto:focus {
+    overscroll-behavior-y: auto;
+  }
+
+  .xl\:focus\:overscroll-y-contain:focus {
+    overscroll-behavior-y: contain;
+  }
+
+  .xl\:focus\:overscroll-y-none:focus {
+    overscroll-behavior-y: none;
+  }
+
+  .xl\:focus\:overscroll-x-auto:focus {
+    overscroll-behavior-x: auto;
+  }
+
+  .xl\:focus\:overscroll-x-contain:focus {
+    overscroll-behavior-x: contain;
+  }
+
+  .xl\:focus\:overscroll-x-none:focus {
     overscroll-behavior-x: none;
   }
 
