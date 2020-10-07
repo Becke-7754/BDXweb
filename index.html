@@ -52,8 +52,11 @@
           alt=""
         />
       </div> -->
-    <div class="hero absolute inset-0 block">
+    <div class="hero absolute inset-0 hidden md:block">
       <video src="/dist/video/videoplayback.mp4" class="w-full h-full object-cover" autoplay muted loop></video>
+    </div>
+    <div class="hero absolute inset-0 block md:hidden">
+      <video src="/dist/video/small.mp4" class="" autoplay muted loop></video>
     </div>
     <!-- Hero end -->
   </header>
@@ -80,8 +83,8 @@
       <div id="container"
         class="flex flex-col items-stretch sm:justify-start space-y-6 md:flex-row md:overflow-hidden md:flex-no-wrap md:space-y-0">
         <!-- _________________________________________________ -->
-        <div class="flex flex-shrink-0">
-          <a href="#" class="relative group block mx-2">
+        <div class="flex flex-shrink-0 justify-center">
+          <a href="#" class="relative group block mx-2 ">
             <div
               class="absolute inset-0 bg-black opacity-70 p-4 hidden group-hover:flex flex-col justify-end text-white cursor-pointer">
               <h3 class="text-lg mb-2">Power bank</h3>
@@ -95,7 +98,7 @@
           </a>
           <!-- _________________________________________________ -->
         </div>
-        <div class="flex flex-shrink-0">
+        <div class="flex flex-shrink-0 justify-center">
           <a href="#" class="relative group block mx-2">
             <div
               class="absolute inset-0 bg-black opacity-70 p-4 hidden group-hover:flex flex-col justify-end text-white cursor-pointer">
@@ -110,7 +113,7 @@
           </a>
         </div>
         <!-- _________________________________________________ -->
-        <div class="flex flex-shrink-0">
+        <div class="flex flex-shrink-0 justify-center">
           <a href="#" class="relative group block mx-2">
             <div
               class="absolute inset-0 bg-black opacity-70 p-4 hidden group-hover:flex flex-col justify-end text-white cursor-pointer">
@@ -125,7 +128,7 @@
           </a>
         </div>
         <!-- _________________________________________________ -->
-        <div class="flex flex-shrink-0">
+        <div class="flex flex-shrink-0 justify-center">
           <a href="#" class="relative group block mx-2">
             <div
               class="absolute inset-0 bg-black opacity-70 p-4 hidden group-hover:flex flex-col justify-end text-white cursor-pointer">

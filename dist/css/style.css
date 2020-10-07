@@ -652,7 +652,7 @@ video {
 }
 
 .header {
-  height: 800px;
+  height: 300px;
 }
 
 .hero {
@@ -697,6 +697,10 @@ video {
   }
 
   .gallery {
+    height: 800px;
+  }
+
+  .header {
     height: 800px;
   }
 }
