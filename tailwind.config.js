@@ -18,6 +18,7 @@ module.exports = {
     },
     cursor: {
       grab: "grab",
+      pointer: "pointer",
     },
     extend: {
       colors: {

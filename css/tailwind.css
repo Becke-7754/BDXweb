@@ -14,18 +14,31 @@
   @apply bg-orange-800;
 }
 .header {
-  height: 400px;
+  height: 800px;
 }
 .hero {
   z-index: -10;
 }
 
-@screen sm {
+.gallery {
+  height: 300px;
+}
+
+.btn-primary {
+  @apply bg-transparent uppercase border border-orange-600 px-10 py-3 inline-block mr-4 text-orange-600;
+}
+
+.btn-primary:hover {
+  @apply bg-orange-600 text-white cursor-pointer;
+}
+
+@screen md {
   .btn-primary-BDX {
     @apply text-lg;
   }
-  .header {
-    height: 700px;
+
+  .gallery {
+    height: 800px;
   }
 }
 
